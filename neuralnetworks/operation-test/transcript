@@ -1,0 +1,1241 @@
+# Loading project weights-operation-test
+# Compile of tb_weights_operation.v was successful.
+# Compile of weights_operation.v was successful.
+# Compile of rom_weights_784_10.v was successful.
+# Compile of mult_accum.v was successful.
+# 4 compiles, 0 failed with no errors.
+# Compile of tb_weights_operation.v was successful.
+# Compile of weights_operation.v was successful.
+# Compile of rom_weights_784_10.v was successful.
+# Compile of mult_accum.v was successful.
+# 4 compiles, 0 failed with no errors.
+vsim work.mult_accum work.rom_weights_784_10 work.tb_weights_operation work.weights_operation 220model.lpm_rom altera_mf.altmult_accum altera_mf.altsyncram
+# vsim work.mult_accum work.rom_weights_784_10 work.tb_weights_operation work.weights_operation 220model.lpm_rom altera_mf.altmult_accum altera_mf.altsyncram 
+# Start time: 08:46:59 on Apr 18,2019
+# Loading work.mult_accum
+# Loading altera_mf.altmult_accum
+# Loading altera_mf.ALTERA_DEVICE_FAMILIES
+# Loading work.rom_weights_784_10
+# Loading altera_mf.altsyncram
+# Loading work.tb_weights_operation
+# Loading work.weights_operation
+# Loading 220model.lpm_rom
+# Loading 220model.LPM_DEVICE_FAMILIES
+# Loading 220model.LPM_MEMORY_INITIALIZATION
+# Loading altera_mf.altsyncram_body
+# Loading altera_mf.ALTERA_MF_MEMORY_INITIALIZATION
+# ** Warning: (vsim-3017) /home/hwzhang/Project/FPGA/CNN/HandWritten-Rcognition/src/neuralnetworks/operation-test/tb_weights_operation.v(65): [TFMPC] - Too few port connections. Expected 14, found 13.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_weights_operation/weights_operation_inst File: /home/hwzhang/Project/FPGA/CNN/HandWritten-Rcognition/src/neuralnetworks/operation-test/weights_operation.v
+# ** Warning: (vsim-3015) /home/hwzhang/Project/FPGA/CNN/HandWritten-Rcognition/src/neuralnetworks/operation-test/tb_weights_operation.v(65): [PCDPC] - Port size (32) does not match connection size (1) for port 'operation_out_0'. The port definition is at: /home/hwzhang/Project/FPGA/CNN/HandWritten-Rcognition/src/neuralnetworks/operation-test/weights_operation.v(23).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_weights_operation/weights_operation_inst File: /home/hwzhang/Project/FPGA/CNN/HandWritten-Rcognition/src/neuralnetworks/operation-test/weights_operation.v
+# ** Warning: (vsim-3015) /home/hwzhang/Project/FPGA/CNN/HandWritten-Rcognition/src/neuralnetworks/operation-test/tb_weights_operation.v(65): [PCDPC] - Port size (32) does not match connection size (1) for port 'operation_out_1'. The port definition is at: /home/hwzhang/Project/FPGA/CNN/HandWritten-Rcognition/src/neuralnetworks/operation-test/weights_operation.v(24).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_weights_operation/weights_operation_inst File: /home/hwzhang/Project/FPGA/CNN/HandWritten-Rcognition/src/neuralnetworks/operation-test/weights_operation.v
+# ** Warning: (vsim-3015) /home/hwzhang/Project/FPGA/CNN/HandWritten-Rcognition/src/neuralnetworks/operation-test/tb_weights_operation.v(65): [PCDPC] - Port size (32) does not match connection size (1) for port 'operation_out_2'. The port definition is at: /home/hwzhang/Project/FPGA/CNN/HandWritten-Rcognition/src/neuralnetworks/operation-test/weights_operation.v(25).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_weights_operation/weights_operation_inst File: /home/hwzhang/Project/FPGA/CNN/HandWritten-Rcognition/src/neuralnetworks/operation-test/weights_operation.v
+# ** Warning: (vsim-3015) /home/hwzhang/Project/FPGA/CNN/HandWritten-Rcognition/src/neuralnetworks/operation-test/tb_weights_operation.v(65): [PCDPC] - Port size (32) does not match connection size (1) for port 'operation_out_3'. The port definition is at: /home/hwzhang/Project/FPGA/CNN/HandWritten-Rcognition/src/neuralnetworks/operation-test/weights_operation.v(26).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_weights_operation/weights_operation_inst File: /home/hwzhang/Project/FPGA/CNN/HandWritten-Rcognition/src/neuralnetworks/operation-test/weights_operation.v
+# ** Warning: (vsim-3015) /home/hwzhang/Project/FPGA/CNN/HandWritten-Rcognition/src/neuralnetworks/operation-test/tb_weights_operation.v(65): [PCDPC] - Port size (32) does not match connection size (1) for port 'operation_out_4'. The port definition is at: /home/hwzhang/Project/FPGA/CNN/HandWritten-Rcognition/src/neuralnetworks/operation-test/weights_operation.v(27).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_weights_operation/weights_operation_inst File: /home/hwzhang/Project/FPGA/CNN/HandWritten-Rcognition/src/neuralnetworks/operation-test/weights_operation.v
+# ** Warning: (vsim-3015) /home/hwzhang/Project/FPGA/CNN/HandWritten-Rcognition/src/neuralnetworks/operation-test/tb_weights_operation.v(65): [PCDPC] - Port size (32) does not match connection size (1) for port 'operation_out_5'. The port definition is at: /home/hwzhang/Project/FPGA/CNN/HandWritten-Rcognition/src/neuralnetworks/operation-test/weights_operation.v(28).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_weights_operation/weights_operation_inst File: /home/hwzhang/Project/FPGA/CNN/HandWritten-Rcognition/src/neuralnetworks/operation-test/weights_operation.v
+# ** Warning: (vsim-3015) /home/hwzhang/Project/FPGA/CNN/HandWritten-Rcognition/src/neuralnetworks/operation-test/tb_weights_operation.v(65): [PCDPC] - Port size (32) does not match connection size (1) for port 'operation_out_6'. The port definition is at: /home/hwzhang/Project/FPGA/CNN/HandWritten-Rcognition/src/neuralnetworks/operation-test/weights_operation.v(29).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_weights_operation/weights_operation_inst File: /home/hwzhang/Project/FPGA/CNN/HandWritten-Rcognition/src/neuralnetworks/operation-test/weights_operation.v
+# ** Warning: (vsim-3015) /home/hwzhang/Project/FPGA/CNN/HandWritten-Rcognition/src/neuralnetworks/operation-test/tb_weights_operation.v(65): [PCDPC] - Port size (32) does not match connection size (1) for port 'operation_out_7'. The port definition is at: /home/hwzhang/Project/FPGA/CNN/HandWritten-Rcognition/src/neuralnetworks/operation-test/weights_operation.v(30).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_weights_operation/weights_operation_inst File: /home/hwzhang/Project/FPGA/CNN/HandWritten-Rcognition/src/neuralnetworks/operation-test/weights_operation.v
+# ** Warning: (vsim-3015) /home/hwzhang/Project/FPGA/CNN/HandWritten-Rcognition/src/neuralnetworks/operation-test/tb_weights_operation.v(65): [PCDPC] - Port size (32) does not match connection size (1) for port 'operation_out_8'. The port definition is at: /home/hwzhang/Project/FPGA/CNN/HandWritten-Rcognition/src/neuralnetworks/operation-test/weights_operation.v(31).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_weights_operation/weights_operation_inst File: /home/hwzhang/Project/FPGA/CNN/HandWritten-Rcognition/src/neuralnetworks/operation-test/weights_operation.v
+# ** Warning: (vsim-3015) /home/hwzhang/Project/FPGA/CNN/HandWritten-Rcognition/src/neuralnetworks/operation-test/tb_weights_operation.v(65): [PCDPC] - Port size (32) does not match connection size (1) for port 'operation_out_9'. The port definition is at: /home/hwzhang/Project/FPGA/CNN/HandWritten-Rcognition/src/neuralnetworks/operation-test/weights_operation.v(32).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_weights_operation/weights_operation_inst File: /home/hwzhang/Project/FPGA/CNN/HandWritten-Rcognition/src/neuralnetworks/operation-test/weights_operation.v
+# ** Warning: (vsim-3722) /home/hwzhang/Project/FPGA/CNN/HandWritten-Rcognition/src/neuralnetworks/operation-test/tb_weights_operation.v(65): [TFMPC] - Missing connection for port 'rst'.
+add wave -position insertpoint sim:/tb_weights_operation/*
+run 100ns
+# ERROR: weights.mif, line 790, Missing `end` statement.
+# pixel_in  is   1 
+# pixel_index  is   35 
+# ERROR: weights.mif, line 790, Missing `end` statement.
+# ERROR: weights.mif, line 790, Missing `end` statement.
+# Warning:  LPM_ROM must have data file for initialization.
+# 
+# Time: 0  Instance: lpm_rom
+add wave -position insertpoint sim:/weights_operation/*
+run 100ns
+# Compile of tb_weights_operation.v was successful.
+# Compile of weights_operation.v was successful.
+# Compile of rom_weights_784_10.v was successful.
+# Compile of mult_accum.v was successful.
+# 4 compiles, 0 failed with no errors.
+vsim work.mult_accum work.rom_weights_784_10 work.tb_weights_operation work.weights_operation 220model.lpm_rom altera_mf.altmult_accum altera_mf.altsyncram
+# End time: 08:49:03 on Apr 18,2019, Elapsed time: 0:02:04
+# Errors: 0, Warnings: 12
+# vsim work.mult_accum work.rom_weights_784_10 work.tb_weights_operation work.weights_operation 220model.lpm_rom altera_mf.altmult_accum altera_mf.altsyncram 
+# Start time: 08:49:03 on Apr 18,2019
+# Loading work.mult_accum
+# Loading altera_mf.altmult_accum
+# Loading altera_mf.ALTERA_DEVICE_FAMILIES
+# Loading work.rom_weights_784_10
+# Loading altera_mf.altsyncram
+# Loading work.tb_weights_operation
+# Loading work.weights_operation
+# Loading 220model.lpm_rom
+# Loading 220model.LPM_DEVICE_FAMILIES
+# Loading 220model.LPM_MEMORY_INITIALIZATION
+# Loading altera_mf.altsyncram_body
+# Loading altera_mf.ALTERA_MF_MEMORY_INITIALIZATION
+# ** Warning: (vsim-3017) /home/hwzhang/Project/FPGA/CNN/HandWritten-Rcognition/src/neuralnetworks/operation-test/tb_weights_operation.v(64): [TFMPC] - Too few port connections. Expected 14, found 13.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_weights_operation/weights_operation_inst File: /home/hwzhang/Project/FPGA/CNN/HandWritten-Rcognition/src/neuralnetworks/operation-test/weights_operation.v
+# ** Warning: (vsim-3722) /home/hwzhang/Project/FPGA/CNN/HandWritten-Rcognition/src/neuralnetworks/operation-test/tb_weights_operation.v(64): [TFMPC] - Missing connection for port 'rst'.
+add wave -position insertpoint sim:/tb_weights_operation/*
+add wave -position insertpoint sim:/weights_operation/*
+run 100ns
+# ERROR: weights.mif, line 790, Missing `end` statement.
+# pixel_in  is   1 
+# pixel_index  is   35 
+# ERROR: weights.mif, line 790, Missing `end` statement.
+# ERROR: weights.mif, line 790, Missing `end` statement.
+# Warning:  LPM_ROM must have data file for initialization.
+# 
+# Time: 0  Instance: lpm_rom
+# Can't move the Now cursor.
+# Can't move the Now cursor.
+add wave -position insertpoint sim:/lpm_rom/*
+add wave -position insertpoint sim:/altmult_accum/*
+run 100ns
+# Compile of tb_weights_operation.v was successful.
+# Compile of weights_operation.v was successful.
+# Compile of rom_weights_784_10.v was successful.
+# Compile of mult_accum.v was successful.
+# 4 compiles, 0 failed with no errors.
+vsim work.mult_accum work.rom_weights_784_10 work.tb_weights_operation work.weights_operation 220model.lpm_rom altera_mf.altmult_accum altera_mf.altsyncram
+# End time: 08:57:24 on Apr 18,2019, Elapsed time: 0:08:21
+# Errors: 2, Warnings: 2
+# vsim work.mult_accum work.rom_weights_784_10 work.tb_weights_operation work.weights_operation 220model.lpm_rom altera_mf.altmult_accum altera_mf.altsyncram 
+# Start time: 08:57:24 on Apr 18,2019
+# Loading work.mult_accum
+# Loading altera_mf.altmult_accum
+# Loading altera_mf.ALTERA_DEVICE_FAMILIES
+# Loading work.rom_weights_784_10
+# Loading altera_mf.altsyncram
+# Loading work.tb_weights_operation
+# Loading work.weights_operation
+# Loading 220model.lpm_rom
+# Loading 220model.LPM_DEVICE_FAMILIES
+# Loading 220model.LPM_MEMORY_INITIALIZATION
+# Loading altera_mf.altsyncram_body
+# Loading altera_mf.ALTERA_MF_MEMORY_INITIALIZATION
+# ** Warning: (vsim-3017) /home/hwzhang/Project/FPGA/CNN/HandWritten-Rcognition/src/neuralnetworks/operation-test/tb_weights_operation.v(64): [TFMPC] - Too few port connections. Expected 14, found 13.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_weights_operation/weights_operation_inst File: /home/hwzhang/Project/FPGA/CNN/HandWritten-Rcognition/src/neuralnetworks/operation-test/weights_operation.v
+# ** Warning: (vsim-3722) /home/hwzhang/Project/FPGA/CNN/HandWritten-Rcognition/src/neuralnetworks/operation-test/tb_weights_operation.v(64): [TFMPC] - Missing connection for port 'rst'.
+add wave -r /*
+run 100ns
+# pixel_in  is   1 
+# pixel_index  is   35 
+# Warning:  LPM_ROM must have data file for initialization.
+# 
+# Time: 0  Instance: lpm_rom
+add wave -position insertpoint  \
+sim:/mult_accum/clock0 \
+sim:/mult_accum/dataa \
+sim:/mult_accum/datab \
+sim:/mult_accum/result \
+sim:/mult_accum/sub_wire0
+run 100ns
+add wave -position insertpoint sim:/tb_weights_operation/*
+vsim work.mult_accum work.rom_weights_784_10 work.tb_weights_operation work.weights_operation 220model.lpm_rom altera_mf.altmult_accum altera_mf.altsyncram
+# End time: 08:59:36 on Apr 18,2019, Elapsed time: 0:02:12
+# Errors: 0, Warnings: 2
+# vsim work.mult_accum work.rom_weights_784_10 work.tb_weights_operation work.weights_operation 220model.lpm_rom altera_mf.altmult_accum altera_mf.altsyncram 
+# Start time: 08:59:36 on Apr 18,2019
+# Loading work.mult_accum
+# Loading altera_mf.altmult_accum
+# Loading altera_mf.ALTERA_DEVICE_FAMILIES
+# Loading work.rom_weights_784_10
+# Loading altera_mf.altsyncram
+# Loading work.tb_weights_operation
+# Loading work.weights_operation
+# Loading 220model.lpm_rom
+# Loading 220model.LPM_DEVICE_FAMILIES
+# Loading 220model.LPM_MEMORY_INITIALIZATION
+# Loading altera_mf.altsyncram_body
+# Loading altera_mf.ALTERA_MF_MEMORY_INITIALIZATION
+# ** Warning: (vsim-3017) /home/hwzhang/Project/FPGA/CNN/HandWritten-Rcognition/src/neuralnetworks/operation-test/tb_weights_operation.v(64): [TFMPC] - Too few port connections. Expected 14, found 13.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_weights_operation/weights_operation_inst File: /home/hwzhang/Project/FPGA/CNN/HandWritten-Rcognition/src/neuralnetworks/operation-test/weights_operation.v
+# ** Warning: (vsim-3722) /home/hwzhang/Project/FPGA/CNN/HandWritten-Rcognition/src/neuralnetworks/operation-test/tb_weights_operation.v(64): [TFMPC] - Missing connection for port 'rst'.
+add wave -position insertpoint sim:/tb_weights_operation/*
+add wave -position insertpoint sim:/weights_operation/*
+run 100ns
+# pixel_in  is   1 
+# pixel_index  is   35 
+# Warning:  LPM_ROM must have data file for initialization.
+# 
+# Time: 0  Instance: lpm_rom
+# Can't move the Now cursor.
+# Error opening /home/hwzhang/Project/FPGA/CNN/HandWritten-Rcognition/src/neuralnetworks/operation-test/altera/verilog/src/220model.v
+# Path name '/home/hwzhang/Project/FPGA/CNN/HandWritten-Rcognition/src/neuralnetworks/operation-test/altera/verilog/src/220model.v' doesn't exist.
+vlog -work work /home/hwzhang/Project/FPGA/CNN/HandWritten-Rcognition/src/neuralnetworks/operation-test/mult_accum.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:06:38 on Apr 18,2019
+# vlog -reportprogress 300 -work work /home/hwzhang/Project/FPGA/CNN/HandWritten-Rcognition/src/neuralnetworks/operation-test/mult_accum.v 
+# -- Compiling module mult_accum
+# 
+# Top level modules:
+# 	mult_accum
+# End time: 09:06:38 on Apr 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work /home/hwzhang/Project/FPGA/CNN/HandWritten-Rcognition/src/neuralnetworks/operation-test/rom_weights_784_10.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:06:38 on Apr 18,2019
+# vlog -reportprogress 300 -work work /home/hwzhang/Project/FPGA/CNN/HandWritten-Rcognition/src/neuralnetworks/operation-test/rom_weights_784_10.v 
+# -- Compiling module rom_weights_784_10
+# 
+# Top level modules:
+# 	rom_weights_784_10
+# End time: 09:06:38 on Apr 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work /home/hwzhang/Project/FPGA/CNN/HandWritten-Rcognition/src/neuralnetworks/operation-test/tb_weights_operation.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:06:38 on Apr 18,2019
+# vlog -reportprogress 300 -work work /home/hwzhang/Project/FPGA/CNN/HandWritten-Rcognition/src/neuralnetworks/operation-test/tb_weights_operation.v 
+# -- Compiling module tb_weights_operation
+# 
+# Top level modules:
+# 	tb_weights_operation
+# End time: 09:06:38 on Apr 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work /home/hwzhang/Project/FPGA/CNN/HandWritten-Rcognition/src/neuralnetworks/operation-test/weights_operation.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:06:38 on Apr 18,2019
+# vlog -reportprogress 300 -work work /home/hwzhang/Project/FPGA/CNN/HandWritten-Rcognition/src/neuralnetworks/operation-test/weights_operation.v 
+# -- Compiling module weights_operation
+# 
+# Top level modules:
+# 	weights_operation
+# End time: 09:06:38 on Apr 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work /build/swbuild/SJ/nightly/17.1std/590/l64/work/modelsim/libs/altera/verilog/220model -path {$MODEL_TECH/../altera/verilog/src/220model.v} /home/hwzhang/intelFPGA_lite/17.1/modelsim_ase/altera/verilog/src/220model.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:06:38 on Apr 18,2019
+# vlog -reportprogress 300 -work /build/swbuild/SJ/nightly/17.1std/590/l64/work/modelsim/libs/altera/verilog/220model -path $MODEL_TECH/../altera/verilog/src/220model.v /home/hwzhang/intelFPGA_lite/17.1/modelsim_ase/altera/verilog/src/220model.v 
+# ** Error: (vlog-66) Execution of vlib failed. Please check the error log for more details.
+# sh: /home/hwzhang/intelFPGA_lite/17.1/modelsim_ase/linuxpe/vlib: No such file or directory
+# End time: 09:06:38 on Apr 18,2019, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# /home/hwzhang/intelFPGA_lite/17.1/modelsim_ase/linuxaloem/vlog failed.
+vlog -work /build/swbuild/SJ/nightly/17.1std/590/l64/work/modelsim/libs/altera/verilog/altera_mf -path {$MODEL_TECH/../altera/verilog/src/altera_mf.v} /home/hwzhang/intelFPGA_lite/17.1/modelsim_ase/altera/verilog/src/altera_mf.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:06:38 on Apr 18,2019
+# vlog -reportprogress 300 -work /build/swbuild/SJ/nightly/17.1std/590/l64/work/modelsim/libs/altera/verilog/altera_mf -path $MODEL_TECH/../altera/verilog/src/altera_mf.v /home/hwzhang/intelFPGA_lite/17.1/modelsim_ase/altera/verilog/src/altera_mf.v 
+# ** Error: (vlog-66) Execution of vlib failed. Please check the error log for more details.
+# sh: /home/hwzhang/intelFPGA_lite/17.1/modelsim_ase/linuxpe/vlib: No such file or directory
+# End time: 09:06:38 on Apr 18,2019, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# /home/hwzhang/intelFPGA_lite/17.1/modelsim_ase/linuxaloem/vlog failed.
+vlog -work /build/swbuild/SJ/nightly/17.1std/590/l64/work/modelsim/libs/altera/verilog/altera_mf -path {$MODEL_TECH/../altera/verilog/src/altera_mf.v} /home/hwzhang/intelFPGA_lite/17.1/modelsim_ase/altera/verilog/src/altera_mf.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:06:38 on Apr 18,2019
+# vlog -reportprogress 300 -work /build/swbuild/SJ/nightly/17.1std/590/l64/work/modelsim/libs/altera/verilog/altera_mf -path $MODEL_TECH/../altera/verilog/src/altera_mf.v /home/hwzhang/intelFPGA_lite/17.1/modelsim_ase/altera/verilog/src/altera_mf.v 
+# ** Error: (vlog-66) Execution of vlib failed. Please check the error log for more details.
+# sh: /home/hwzhang/intelFPGA_lite/17.1/modelsim_ase/linuxpe/vlib: No such file or directory
+# End time: 09:06:39 on Apr 18,2019, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 0
+# /home/hwzhang/intelFPGA_lite/17.1/modelsim_ase/linuxaloem/vlog failed.
+vsim work.mult_accum work.rom_weights_784_10 work.tb_weights_operation work.weights_operation 220model_ver.lpm_rom altera_mf_ver.altmult_accum altera_mf_ver.altsyncram
+# End time: 09:06:49 on Apr 18,2019, Elapsed time: 0:07:13
+# Errors: 8, Warnings: 2
+# vsim work.mult_accum work.rom_weights_784_10 work.tb_weights_operation work.weights_operation 220model_ver.lpm_rom altera_mf_ver.altmult_accum altera_mf_ver.altsyncram 
+# Start time: 09:06:49 on Apr 18,2019
+# Loading work.mult_accum
+# Loading altera_mf_ver.altmult_accum
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading work.rom_weights_784_10
+# Loading altera_mf_ver.altsyncram
+# Loading work.tb_weights_operation
+# Loading work.weights_operation
+# Loading 220model_ver.lpm_rom
+# Loading 220model_ver.LPM_DEVICE_FAMILIES
+# Loading 220model_ver.LPM_MEMORY_INITIALIZATION
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# ** Warning: (vsim-3017) /home/hwzhang/Project/FPGA/CNN/HandWritten-Rcognition/src/neuralnetworks/operation-test/tb_weights_operation.v(64): [TFMPC] - Too few port connections. Expected 14, found 13.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_weights_operation/weights_operation_inst File: /home/hwzhang/Project/FPGA/CNN/HandWritten-Rcognition/src/neuralnetworks/operation-test/weights_operation.v
+# ** Warning: (vsim-3722) /home/hwzhang/Project/FPGA/CNN/HandWritten-Rcognition/src/neuralnetworks/operation-test/tb_weights_operation.v(64): [TFMPC] - Missing connection for port 'rst'.
+add wave -position insertpoint sim:/tb_weights_operation/*
+add wave -position insertpoint sim:/weights_operation/*
+run 100ns
+# pixel_in  is   1 
+# pixel_index  is   35 
+# Warning:  LPM_ROM must have data file for initialization.
+# 
+# Time: 0  Instance: lpm_rom
+add wave -position insertpoint sim:/rom_weights_784_10/*
+run 100ns
+# A time value could not be extracted from the current line
+# Compile of tb_weights_operation.v was successful.
+# Compile of weights_operation.v was successful.
+# Compile of rom_weights_784_10.v was successful.
+# Compile of mult_accum.v was successful.
+# 4 compiles, 0 failed with no errors.
+vsim work.mult_accum work.rom_weights_784_10 work.tb_weights_operation work.weights_operation 220model_ver.lpm_rom altera_mf_ver.altmult_accum altera_mf_ver.altsyncram
+# End time: 09:11:47 on Apr 18,2019, Elapsed time: 0:04:58
+# Errors: 0, Warnings: 2
+# vsim work.mult_accum work.rom_weights_784_10 work.tb_weights_operation work.weights_operation 220model_ver.lpm_rom altera_mf_ver.altmult_accum altera_mf_ver.altsyncram 
+# Start time: 09:11:47 on Apr 18,2019
+# Loading work.mult_accum
+# Loading altera_mf_ver.altmult_accum
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading work.rom_weights_784_10
+# Loading altera_mf_ver.altsyncram
+# Loading work.tb_weights_operation
+# Loading work.weights_operation
+# Loading 220model_ver.lpm_rom
+# Loading 220model_ver.LPM_DEVICE_FAMILIES
+# Loading 220model_ver.LPM_MEMORY_INITIALIZATION
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# ** Warning: (vsim-3017) /home/hwzhang/Project/FPGA/CNN/HandWritten-Rcognition/src/neuralnetworks/operation-test/tb_weights_operation.v(64): [TFMPC] - Too few port connections. Expected 14, found 13.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_weights_operation/weights_operation_inst File: /home/hwzhang/Project/FPGA/CNN/HandWritten-Rcognition/src/neuralnetworks/operation-test/weights_operation.v
+# ** Warning: (vsim-3722) /home/hwzhang/Project/FPGA/CNN/HandWritten-Rcognition/src/neuralnetworks/operation-test/tb_weights_operation.v(64): [TFMPC] - Missing connection for port 'rst'.
+add wave -position insertpoint sim:/tb_weights_operation/*
+add wave -position insertpoint sim:/weights_operation/*
+run 100ns
+# pixel_in  is   1 
+# pixel_index  is   35 
+# Warning:  LPM_ROM must have data file for initialization.
+# 
+# Time: 0  Instance: lpm_rom
+# Error opening /build/swbuild/SJ/nightly/17.1std/590/l64/work/modelsim/eda/sim_lib/220model.v
+# Path name '/build/swbuild/SJ/nightly/17.1std/590/l64/work/modelsim/eda/sim_lib/220model.v' doesn't exist.
+# Error opening /build/swbuild/SJ/nightly/17.1std/590/l64/work/modelsim/eda/sim_lib/220model.v
+# Path name '/build/swbuild/SJ/nightly/17.1std/590/l64/work/modelsim/eda/sim_lib/220model.v' doesn't exist.
+# A time value could not be extracted from the current line
+# A time value could not be extracted from the current line
+vlog -work work /home/hwzhang/Project/FPGA/CNN/HandWritten-Rcognition/src/neuralnetworks/operation-test/mult_accum.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:18:00 on Apr 18,2019
+# vlog -reportprogress 300 -work work /home/hwzhang/Project/FPGA/CNN/HandWritten-Rcognition/src/neuralnetworks/operation-test/mult_accum.v 
+# -- Compiling module mult_accum
+# 
+# Top level modules:
+# 	mult_accum
+# End time: 09:18:00 on Apr 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work /home/hwzhang/Project/FPGA/CNN/HandWritten-Rcognition/src/neuralnetworks/operation-test/rom_weights_784_10.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:18:00 on Apr 18,2019
+# vlog -reportprogress 300 -work work /home/hwzhang/Project/FPGA/CNN/HandWritten-Rcognition/src/neuralnetworks/operation-test/rom_weights_784_10.v 
+# -- Compiling module rom_weights_784_10
+# 
+# Top level modules:
+# 	rom_weights_784_10
+# End time: 09:18:01 on Apr 18,2019, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vlog -work work /home/hwzhang/Project/FPGA/CNN/HandWritten-Rcognition/src/neuralnetworks/operation-test/tb_weights_operation.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:18:01 on Apr 18,2019
+# vlog -reportprogress 300 -work work /home/hwzhang/Project/FPGA/CNN/HandWritten-Rcognition/src/neuralnetworks/operation-test/tb_weights_operation.v 
+# -- Compiling module tb_weights_operation
+# 
+# Top level modules:
+# 	tb_weights_operation
+# End time: 09:18:01 on Apr 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work /home/hwzhang/Project/FPGA/CNN/HandWritten-Rcognition/src/neuralnetworks/operation-test/weights_operation.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:18:01 on Apr 18,2019
+# vlog -reportprogress 300 -work work /home/hwzhang/Project/FPGA/CNN/HandWritten-Rcognition/src/neuralnetworks/operation-test/weights_operation.v 
+# -- Compiling module weights_operation
+# 
+# Top level modules:
+# 	weights_operation
+# End time: 09:18:01 on Apr 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work /build/swbuild/SJ/nightly/17.1std/590/l64/work/modelsim/libs/altera/verilog/220model -path {$MODEL_TECH/../altera/verilog/src/220model.v} /home/hwzhang/intelFPGA_lite/17.1/modelsim_ase/altera/verilog/src/220model.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:18:01 on Apr 18,2019
+# vlog -reportprogress 300 -work /build/swbuild/SJ/nightly/17.1std/590/l64/work/modelsim/libs/altera/verilog/220model -path $MODEL_TECH/../altera/verilog/src/220model.v /home/hwzhang/intelFPGA_lite/17.1/modelsim_ase/altera/verilog/src/220model.v 
+# ** Error: (vlog-66) Execution of vlib failed. Please check the error log for more details.
+# sh: /home/hwzhang/intelFPGA_lite/17.1/modelsim_ase/linuxpe/vlib: No such file or directory
+# End time: 09:18:01 on Apr 18,2019, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# /home/hwzhang/intelFPGA_lite/17.1/modelsim_ase/linuxaloem/vlog failed.
+vlog -work /build/swbuild/SJ/nightly/17.1std/590/l64/work/modelsim/libs/altera/verilog/altera_mf -path {$MODEL_TECH/../altera/verilog/src/altera_mf.v} /home/hwzhang/intelFPGA_lite/17.1/modelsim_ase/altera/verilog/src/altera_mf.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:18:01 on Apr 18,2019
+# vlog -reportprogress 300 -work /build/swbuild/SJ/nightly/17.1std/590/l64/work/modelsim/libs/altera/verilog/altera_mf -path $MODEL_TECH/../altera/verilog/src/altera_mf.v /home/hwzhang/intelFPGA_lite/17.1/modelsim_ase/altera/verilog/src/altera_mf.v 
+# ** Error: (vlog-66) Execution of vlib failed. Please check the error log for more details.
+# sh: /home/hwzhang/intelFPGA_lite/17.1/modelsim_ase/linuxpe/vlib: No such file or directory
+# End time: 09:18:01 on Apr 18,2019, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# /home/hwzhang/intelFPGA_lite/17.1/modelsim_ase/linuxaloem/vlog failed.
+vlog -work /build/swbuild/SJ/nightly/17.1std/590/l64/work/modelsim/libs/altera/verilog/altera_mf -path {$MODEL_TECH/../altera/verilog/src/altera_mf.v} /home/hwzhang/intelFPGA_lite/17.1/modelsim_ase/altera/verilog/src/altera_mf.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:18:01 on Apr 18,2019
+# vlog -reportprogress 300 -work /build/swbuild/SJ/nightly/17.1std/590/l64/work/modelsim/libs/altera/verilog/altera_mf -path $MODEL_TECH/../altera/verilog/src/altera_mf.v /home/hwzhang/intelFPGA_lite/17.1/modelsim_ase/altera/verilog/src/altera_mf.v 
+# ** Error: (vlog-66) Execution of vlib failed. Please check the error log for more details.
+# sh: /home/hwzhang/intelFPGA_lite/17.1/modelsim_ase/linuxpe/vlib: No such file or directory
+# End time: 09:18:01 on Apr 18,2019, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# /home/hwzhang/intelFPGA_lite/17.1/modelsim_ase/linuxaloem/vlog failed.
+vsim work.mult_accum work.rom_weights_784_10 work.tb_weights_operation work.weights_operation 220model_ver.lpm_rom altera_mf_ver.altmult_accum altera_mf_ver.altsyncram
+# End time: 09:18:38 on Apr 18,2019, Elapsed time: 0:06:51
+# Errors: 8, Warnings: 2
+# vsim work.mult_accum work.rom_weights_784_10 work.tb_weights_operation work.weights_operation 220model_ver.lpm_rom altera_mf_ver.altmult_accum altera_mf_ver.altsyncram 
+# Start time: 09:18:38 on Apr 18,2019
+# Loading work.mult_accum
+# Loading altera_mf_ver.altmult_accum
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading work.rom_weights_784_10
+# Loading altera_mf_ver.altsyncram
+# Loading work.tb_weights_operation
+# Loading work.weights_operation
+# Loading 220model_ver.lpm_rom
+# Loading 220model_ver.LPM_DEVICE_FAMILIES
+# Loading 220model_ver.LPM_MEMORY_INITIALIZATION
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# ** Warning: (vsim-3017) /home/hwzhang/Project/FPGA/CNN/HandWritten-Rcognition/src/neuralnetworks/operation-test/tb_weights_operation.v(64): [TFMPC] - Too few port connections. Expected 14, found 13.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_weights_operation/weights_operation_inst File: /home/hwzhang/Project/FPGA/CNN/HandWritten-Rcognition/src/neuralnetworks/operation-test/weights_operation.v
+# ** Warning: (vsim-3722) /home/hwzhang/Project/FPGA/CNN/HandWritten-Rcognition/src/neuralnetworks/operation-test/tb_weights_operation.v(64): [TFMPC] - Missing connection for port 'rst'.
+# Error opening /build/swbuild/SJ/nightly/17.1std/590/l64/work/modelsim/eda/sim_lib/altera_mf.v
+# Path name '/build/swbuild/SJ/nightly/17.1std/590/l64/work/modelsim/eda/sim_lib/altera_mf.v' doesn't exist.
+add wave -position insertpoint sim:/weights_operation/*
+# Compile of tb_weights_operation.v failed with 1 errors.
+# Compile of weights_operation.v was successful.
+# Compile of rom_weights_784_10.v was successful.
+# Compile of mult_accum.v was successful.
+# 4 compiles, 1 failed with 1 error.
+clear
+# [3;J[H[2J
+# Compile of tb_weights_operation.v failed with 1 errors.
+# Compile of weights_operation.v was successful.
+# Compile of rom_weights_784_10.v was successful.
+# Compile of mult_accum.v was successful.
+# 4 compiles, 1 failed with 1 error.
+# Compile of tb_weights_operation.v failed with 1 errors.
+# Compile of weights_operation.v was successful.
+# Compile of rom_weights_784_10.v was successful.
+# Compile of mult_accum.v was successful.
+# 4 compiles, 1 failed with 1 error.
+# Compile of tb_weights_operation.v was successful.
+# Compile of weights_operation.v was successful.
+# Compile of rom_weights_784_10.v was successful.
+# Compile of mult_accum.v was successful.
+# 4 compiles, 0 failed with no errors.
+vlog -work work /home/hwzhang/Project/FPGA/CNN/HandWritten-Rcognition/src/neuralnetworks/operation-test/mult_accum.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:22:47 on Apr 18,2019
+# vlog -reportprogress 300 -work work /home/hwzhang/Project/FPGA/CNN/HandWritten-Rcognition/src/neuralnetworks/operation-test/mult_accum.v 
+# -- Compiling module mult_accum
+# 
+# Top level modules:
+# 	mult_accum
+# End time: 09:22:47 on Apr 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work /home/hwzhang/Project/FPGA/CNN/HandWritten-Rcognition/src/neuralnetworks/operation-test/rom_weights_784_10.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:22:47 on Apr 18,2019
+# vlog -reportprogress 300 -work work /home/hwzhang/Project/FPGA/CNN/HandWritten-Rcognition/src/neuralnetworks/operation-test/rom_weights_784_10.v 
+# -- Compiling module rom_weights_784_10
+# 
+# Top level modules:
+# 	rom_weights_784_10
+# End time: 09:22:47 on Apr 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work /home/hwzhang/Project/FPGA/CNN/HandWritten-Rcognition/src/neuralnetworks/operation-test/tb_weights_operation.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:22:47 on Apr 18,2019
+# vlog -reportprogress 300 -work work /home/hwzhang/Project/FPGA/CNN/HandWritten-Rcognition/src/neuralnetworks/operation-test/tb_weights_operation.v 
+# -- Compiling module tb_weights_operation
+# 
+# Top level modules:
+# 	tb_weights_operation
+# End time: 09:22:47 on Apr 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work /home/hwzhang/Project/FPGA/CNN/HandWritten-Rcognition/src/neuralnetworks/operation-test/weights_operation.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:22:47 on Apr 18,2019
+# vlog -reportprogress 300 -work work /home/hwzhang/Project/FPGA/CNN/HandWritten-Rcognition/src/neuralnetworks/operation-test/weights_operation.v 
+# -- Compiling module weights_operation
+# 
+# Top level modules:
+# 	weights_operation
+# End time: 09:22:47 on Apr 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work /build/swbuild/SJ/nightly/17.1std/590/l64/work/modelsim/libs/altera/verilog/220model -path {$MODEL_TECH/../altera/verilog/src/220model.v} /home/hwzhang/intelFPGA_lite/17.1/modelsim_ase/altera/verilog/src/220model.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:22:47 on Apr 18,2019
+# vlog -reportprogress 300 -work /build/swbuild/SJ/nightly/17.1std/590/l64/work/modelsim/libs/altera/verilog/220model -path $MODEL_TECH/../altera/verilog/src/220model.v /home/hwzhang/intelFPGA_lite/17.1/modelsim_ase/altera/verilog/src/220model.v 
+# ** Error: (vlog-66) Execution of vlib failed. Please check the error log for more details.
+# sh: /home/hwzhang/intelFPGA_lite/17.1/modelsim_ase/linuxpe/vlib: No such file or directory
+# End time: 09:22:47 on Apr 18,2019, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# /home/hwzhang/intelFPGA_lite/17.1/modelsim_ase/linuxaloem/vlog failed.
+vlog -work /build/swbuild/SJ/nightly/17.1std/590/l64/work/modelsim/libs/altera/verilog/altera_mf -path {$MODEL_TECH/../altera/verilog/src/altera_mf.v} /home/hwzhang/intelFPGA_lite/17.1/modelsim_ase/altera/verilog/src/altera_mf.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:22:47 on Apr 18,2019
+# vlog -reportprogress 300 -work /build/swbuild/SJ/nightly/17.1std/590/l64/work/modelsim/libs/altera/verilog/altera_mf -path $MODEL_TECH/../altera/verilog/src/altera_mf.v /home/hwzhang/intelFPGA_lite/17.1/modelsim_ase/altera/verilog/src/altera_mf.v 
+# ** Error: (vlog-66) Execution of vlib failed. Please check the error log for more details.
+# sh: /home/hwzhang/intelFPGA_lite/17.1/modelsim_ase/linuxpe/vlib: No such file or directory
+# End time: 09:22:47 on Apr 18,2019, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# /home/hwzhang/intelFPGA_lite/17.1/modelsim_ase/linuxaloem/vlog failed.
+vlog -work /build/swbuild/SJ/nightly/17.1std/590/l64/work/modelsim/libs/altera/verilog/altera_mf -path {$MODEL_TECH/../altera/verilog/src/altera_mf.v} /home/hwzhang/intelFPGA_lite/17.1/modelsim_ase/altera/verilog/src/altera_mf.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:22:47 on Apr 18,2019
+# vlog -reportprogress 300 -work /build/swbuild/SJ/nightly/17.1std/590/l64/work/modelsim/libs/altera/verilog/altera_mf -path $MODEL_TECH/../altera/verilog/src/altera_mf.v /home/hwzhang/intelFPGA_lite/17.1/modelsim_ase/altera/verilog/src/altera_mf.v 
+# ** Error: (vlog-66) Execution of vlib failed. Please check the error log for more details.
+# sh: /home/hwzhang/intelFPGA_lite/17.1/modelsim_ase/linuxpe/vlib: No such file or directory
+# End time: 09:22:47 on Apr 18,2019, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# /home/hwzhang/intelFPGA_lite/17.1/modelsim_ase/linuxaloem/vlog failed.
+vsim work.mult_accum work.rom_weights_784_10 work.tb_weights_operation work.weights_operation 220model_ver.lpm_rom altera_mf_ver.altmult_accum altera_mf_ver.altsyncram
+# End time: 09:22:54 on Apr 18,2019, Elapsed time: 0:04:16
+# Errors: 7, Warnings: 2
+# vsim work.mult_accum work.rom_weights_784_10 work.tb_weights_operation work.weights_operation 220model_ver.lpm_rom altera_mf_ver.altmult_accum altera_mf_ver.altsyncram 
+# Start time: 09:22:54 on Apr 18,2019
+# Loading work.mult_accum
+# Loading altera_mf_ver.altmult_accum
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading work.rom_weights_784_10
+# Loading altera_mf_ver.altsyncram
+# Loading work.tb_weights_operation
+# Loading work.weights_operation
+# Loading 220model_ver.lpm_rom
+# Loading 220model_ver.LPM_DEVICE_FAMILIES
+# Loading 220model_ver.LPM_MEMORY_INITIALIZATION
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+add wave -position insertpoint sim:/weights_operation/*
+run 100ns
+# pixel_in  is   1 
+# pixel_index  is   35 
+# Warning:  LPM_ROM must have data file for initialization.
+# 
+# Time: 0  Instance: lpm_rom
+vsim work.mult_accum work.rom_weights_784_10 work.tb_weights_operation work.weights_operation altera_mf_ver.altmult_accum altera_mf_ver.altsyncram
+# End time: 09:23:38 on Apr 18,2019, Elapsed time: 0:00:44
+# Errors: 0, Warnings: 0
+# vsim work.mult_accum work.rom_weights_784_10 work.tb_weights_operation work.weights_operation altera_mf_ver.altmult_accum altera_mf_ver.altsyncram 
+# Start time: 09:23:38 on Apr 18,2019
+# Loading work.mult_accum
+# Loading altera_mf_ver.altmult_accum
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading work.rom_weights_784_10
+# Loading altera_mf_ver.altsyncram
+# Loading work.tb_weights_operation
+# Loading work.weights_operation
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+add wave -position insertpoint sim:/weights_operation/*
+run 100ns
+# pixel_in  is   1 
+# pixel_index  is   35 
+# Compile of tb_weights_operation.v was successful.
+# Compile of weights_operation.v was successful.
+# Compile of rom_weights_784_10.v was successful.
+# Compile of mult_accum.v was successful.
+# 4 compiles, 0 failed with no errors.
+vsim work.mult_accum work.rom_weights_784_10 work.tb_weights_operation work.weights_operation altera_mf_ver.altmult_accum altera_mf_ver.altsyncram
+# End time: 09:29:54 on Apr 18,2019, Elapsed time: 0:06:16
+# Errors: 0, Warnings: 0
+# vsim work.mult_accum work.rom_weights_784_10 work.tb_weights_operation work.weights_operation altera_mf_ver.altmult_accum altera_mf_ver.altsyncram 
+# Start time: 09:29:54 on Apr 18,2019
+# Loading work.mult_accum
+# Loading altera_mf_ver.altmult_accum
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading work.rom_weights_784_10
+# Loading altera_mf_ver.altsyncram
+# Loading work.tb_weights_operation
+# Loading work.weights_operation
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+add wave -position insertpoint sim:/tb_weights_operation/*
+run 100ns
+# pixel_in  is   1 
+# pixel_index  is   35 
+add wave -position insertpoint sim:/weights_operation/*
+run 100ns
+vsim work.mult_accum work.rom_weights_784_10 work.tb_weights_operation work.weights_operation altera_mf_ver.altmult_accum altera_mf_ver.altsyncram
+# End time: 09:33:36 on Apr 18,2019, Elapsed time: 0:03:42
+# Errors: 0, Warnings: 0
+# vsim work.mult_accum work.rom_weights_784_10 work.tb_weights_operation work.weights_operation altera_mf_ver.altmult_accum altera_mf_ver.altsyncram 
+# Start time: 09:33:36 on Apr 18,2019
+# Loading work.mult_accum
+# Loading altera_mf_ver.altmult_accum
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading work.rom_weights_784_10
+# Loading altera_mf_ver.altsyncram
+# Loading work.tb_weights_operation
+# Loading work.weights_operation
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+add wave -position insertpoint sim:/tb_weights_operation/*
+add wave -position insertpoint sim:/weights_operation/*
+run 100ns
+# pixel_in  is   1 
+# pixel_index  is   35 
+# Compile of tb_weights_operation.v was successful.
+# Compile of weights_operation.v was successful.
+# Compile of rom_weights_784_10.v was successful.
+# Compile of mult_accum.v was successful.
+# 4 compiles, 0 failed with no errors.
+vsim work.mult_accum work.rom_weights_784_10 work.tb_weights_operation work.weights_operation altera_mf_ver.altmult_accum altera_mf_ver.altsyncram
+# End time: 09:34:52 on Apr 18,2019, Elapsed time: 0:01:16
+# Errors: 0, Warnings: 0
+# vsim work.mult_accum work.rom_weights_784_10 work.tb_weights_operation work.weights_operation altera_mf_ver.altmult_accum altera_mf_ver.altsyncram 
+# Start time: 09:34:52 on Apr 18,2019
+# Loading work.mult_accum
+# Loading altera_mf_ver.altmult_accum
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading work.rom_weights_784_10
+# Loading altera_mf_ver.altsyncram
+# Loading work.tb_weights_operation
+# Loading work.weights_operation
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# ** Warning: (vsim-3015) /home/hwzhang/Project/FPGA/CNN/HandWritten-Rcognition/src/neuralnetworks/operation-test/tb_weights_operation.v(64): [PCDPC] - Port size (32) does not match connection size (1) for port 'operation_out_0'. The port definition is at: /home/hwzhang/Project/FPGA/CNN/HandWritten-Rcognition/src/neuralnetworks/operation-test/weights_operation.v(23).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_weights_operation/weights_operation_inst File: /home/hwzhang/Project/FPGA/CNN/HandWritten-Rcognition/src/neuralnetworks/operation-test/weights_operation.v
+# ** Warning: (vsim-3015) /home/hwzhang/Project/FPGA/CNN/HandWritten-Rcognition/src/neuralnetworks/operation-test/tb_weights_operation.v(64): [PCDPC] - Port size (32) does not match connection size (1) for port 'operation_out_1'. The port definition is at: /home/hwzhang/Project/FPGA/CNN/HandWritten-Rcognition/src/neuralnetworks/operation-test/weights_operation.v(24).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_weights_operation/weights_operation_inst File: /home/hwzhang/Project/FPGA/CNN/HandWritten-Rcognition/src/neuralnetworks/operation-test/weights_operation.v
+# ** Warning: (vsim-3015) /home/hwzhang/Project/FPGA/CNN/HandWritten-Rcognition/src/neuralnetworks/operation-test/tb_weights_operation.v(64): [PCDPC] - Port size (32) does not match connection size (1) for port 'operation_out_2'. The port definition is at: /home/hwzhang/Project/FPGA/CNN/HandWritten-Rcognition/src/neuralnetworks/operation-test/weights_operation.v(25).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_weights_operation/weights_operation_inst File: /home/hwzhang/Project/FPGA/CNN/HandWritten-Rcognition/src/neuralnetworks/operation-test/weights_operation.v
+# ** Warning: (vsim-3015) /home/hwzhang/Project/FPGA/CNN/HandWritten-Rcognition/src/neuralnetworks/operation-test/tb_weights_operation.v(64): [PCDPC] - Port size (32) does not match connection size (1) for port 'operation_out_3'. The port definition is at: /home/hwzhang/Project/FPGA/CNN/HandWritten-Rcognition/src/neuralnetworks/operation-test/weights_operation.v(26).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_weights_operation/weights_operation_inst File: /home/hwzhang/Project/FPGA/CNN/HandWritten-Rcognition/src/neuralnetworks/operation-test/weights_operation.v
+# ** Warning: (vsim-3015) /home/hwzhang/Project/FPGA/CNN/HandWritten-Rcognition/src/neuralnetworks/operation-test/tb_weights_operation.v(64): [PCDPC] - Port size (32) does not match connection size (1) for port 'operation_out_4'. The port definition is at: /home/hwzhang/Project/FPGA/CNN/HandWritten-Rcognition/src/neuralnetworks/operation-test/weights_operation.v(27).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_weights_operation/weights_operation_inst File: /home/hwzhang/Project/FPGA/CNN/HandWritten-Rcognition/src/neuralnetworks/operation-test/weights_operation.v
+# ** Warning: (vsim-3015) /home/hwzhang/Project/FPGA/CNN/HandWritten-Rcognition/src/neuralnetworks/operation-test/tb_weights_operation.v(64): [PCDPC] - Port size (32) does not match connection size (1) for port 'operation_out_5'. The port definition is at: /home/hwzhang/Project/FPGA/CNN/HandWritten-Rcognition/src/neuralnetworks/operation-test/weights_operation.v(28).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_weights_operation/weights_operation_inst File: /home/hwzhang/Project/FPGA/CNN/HandWritten-Rcognition/src/neuralnetworks/operation-test/weights_operation.v
+# ** Warning: (vsim-3015) /home/hwzhang/Project/FPGA/CNN/HandWritten-Rcognition/src/neuralnetworks/operation-test/tb_weights_operation.v(64): [PCDPC] - Port size (32) does not match connection size (1) for port 'operation_out_6'. The port definition is at: /home/hwzhang/Project/FPGA/CNN/HandWritten-Rcognition/src/neuralnetworks/operation-test/weights_operation.v(29).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_weights_operation/weights_operation_inst File: /home/hwzhang/Project/FPGA/CNN/HandWritten-Rcognition/src/neuralnetworks/operation-test/weights_operation.v
+# ** Warning: (vsim-3015) /home/hwzhang/Project/FPGA/CNN/HandWritten-Rcognition/src/neuralnetworks/operation-test/tb_weights_operation.v(64): [PCDPC] - Port size (32) does not match connection size (1) for port 'operation_out_7'. The port definition is at: /home/hwzhang/Project/FPGA/CNN/HandWritten-Rcognition/src/neuralnetworks/operation-test/weights_operation.v(30).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_weights_operation/weights_operation_inst File: /home/hwzhang/Project/FPGA/CNN/HandWritten-Rcognition/src/neuralnetworks/operation-test/weights_operation.v
+# ** Warning: (vsim-3015) /home/hwzhang/Project/FPGA/CNN/HandWritten-Rcognition/src/neuralnetworks/operation-test/tb_weights_operation.v(64): [PCDPC] - Port size (32) does not match connection size (1) for port 'operation_out_8'. The port definition is at: /home/hwzhang/Project/FPGA/CNN/HandWritten-Rcognition/src/neuralnetworks/operation-test/weights_operation.v(31).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_weights_operation/weights_operation_inst File: /home/hwzhang/Project/FPGA/CNN/HandWritten-Rcognition/src/neuralnetworks/operation-test/weights_operation.v
+# ** Warning: (vsim-3015) /home/hwzhang/Project/FPGA/CNN/HandWritten-Rcognition/src/neuralnetworks/operation-test/tb_weights_operation.v(64): [PCDPC] - Port size (32) does not match connection size (1) for port 'operation_out_9'. The port definition is at: /home/hwzhang/Project/FPGA/CNN/HandWritten-Rcognition/src/neuralnetworks/operation-test/weights_operation.v(32).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_weights_operation/weights_operation_inst File: /home/hwzhang/Project/FPGA/CNN/HandWritten-Rcognition/src/neuralnetworks/operation-test/weights_operation.v
+add wave -position insertpoint sim:/tb_weights_operation/*
+add wave -position insertpoint sim:/weights_operation/*
+run 100ns
+# pixel_in  is   1 
+# pixel_index  is   35 
+# Compile of tb_weights_operation.v was successful.
+# Compile of weights_operation.v was successful.
+# Compile of rom_weights_784_10.v was successful.
+# Compile of mult_accum.v was successful.
+# 4 compiles, 0 failed with no errors.
+vsim work.mult_accum work.rom_weights_784_10 work.tb_weights_operation work.weights_operation altera_mf_ver.altmult_accum altera_mf_ver.altsyncram
+# End time: 09:44:27 on Apr 18,2019, Elapsed time: 0:09:35
+# Errors: 0, Warnings: 10
+# vsim work.mult_accum work.rom_weights_784_10 work.tb_weights_operation work.weights_operation altera_mf_ver.altmult_accum altera_mf_ver.altsyncram 
+# Start time: 09:44:27 on Apr 18,2019
+# Loading work.mult_accum
+# Loading altera_mf_ver.altmult_accum
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading work.rom_weights_784_10
+# Loading altera_mf_ver.altsyncram
+# Loading work.tb_weights_operation
+# Loading work.weights_operation
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# ** Warning: (vsim-3015) /home/hwzhang/Project/FPGA/CNN/HandWritten-Rcognition/src/neuralnetworks/operation-test/tb_weights_operation.v(64): [PCDPC] - Port size (32) does not match connection size (1) for port 'operation_out_0'. The port definition is at: /home/hwzhang/Project/FPGA/CNN/HandWritten-Rcognition/src/neuralnetworks/operation-test/weights_operation.v(23).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_weights_operation/weights_operation_inst File: /home/hwzhang/Project/FPGA/CNN/HandWritten-Rcognition/src/neuralnetworks/operation-test/weights_operation.v
+# ** Warning: (vsim-3015) /home/hwzhang/Project/FPGA/CNN/HandWritten-Rcognition/src/neuralnetworks/operation-test/tb_weights_operation.v(64): [PCDPC] - Port size (32) does not match connection size (1) for port 'operation_out_1'. The port definition is at: /home/hwzhang/Project/FPGA/CNN/HandWritten-Rcognition/src/neuralnetworks/operation-test/weights_operation.v(24).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_weights_operation/weights_operation_inst File: /home/hwzhang/Project/FPGA/CNN/HandWritten-Rcognition/src/neuralnetworks/operation-test/weights_operation.v
+# ** Warning: (vsim-3015) /home/hwzhang/Project/FPGA/CNN/HandWritten-Rcognition/src/neuralnetworks/operation-test/tb_weights_operation.v(64): [PCDPC] - Port size (32) does not match connection size (1) for port 'operation_out_2'. The port definition is at: /home/hwzhang/Project/FPGA/CNN/HandWritten-Rcognition/src/neuralnetworks/operation-test/weights_operation.v(25).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_weights_operation/weights_operation_inst File: /home/hwzhang/Project/FPGA/CNN/HandWritten-Rcognition/src/neuralnetworks/operation-test/weights_operation.v
+# ** Warning: (vsim-3015) /home/hwzhang/Project/FPGA/CNN/HandWritten-Rcognition/src/neuralnetworks/operation-test/tb_weights_operation.v(64): [PCDPC] - Port size (32) does not match connection size (1) for port 'operation_out_3'. The port definition is at: /home/hwzhang/Project/FPGA/CNN/HandWritten-Rcognition/src/neuralnetworks/operation-test/weights_operation.v(26).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_weights_operation/weights_operation_inst File: /home/hwzhang/Project/FPGA/CNN/HandWritten-Rcognition/src/neuralnetworks/operation-test/weights_operation.v
+# ** Warning: (vsim-3015) /home/hwzhang/Project/FPGA/CNN/HandWritten-Rcognition/src/neuralnetworks/operation-test/tb_weights_operation.v(64): [PCDPC] - Port size (32) does not match connection size (1) for port 'operation_out_4'. The port definition is at: /home/hwzhang/Project/FPGA/CNN/HandWritten-Rcognition/src/neuralnetworks/operation-test/weights_operation.v(27).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_weights_operation/weights_operation_inst File: /home/hwzhang/Project/FPGA/CNN/HandWritten-Rcognition/src/neuralnetworks/operation-test/weights_operation.v
+# ** Warning: (vsim-3015) /home/hwzhang/Project/FPGA/CNN/HandWritten-Rcognition/src/neuralnetworks/operation-test/tb_weights_operation.v(64): [PCDPC] - Port size (32) does not match connection size (1) for port 'operation_out_5'. The port definition is at: /home/hwzhang/Project/FPGA/CNN/HandWritten-Rcognition/src/neuralnetworks/operation-test/weights_operation.v(28).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_weights_operation/weights_operation_inst File: /home/hwzhang/Project/FPGA/CNN/HandWritten-Rcognition/src/neuralnetworks/operation-test/weights_operation.v
+# ** Warning: (vsim-3015) /home/hwzhang/Project/FPGA/CNN/HandWritten-Rcognition/src/neuralnetworks/operation-test/tb_weights_operation.v(64): [PCDPC] - Port size (32) does not match connection size (1) for port 'operation_out_6'. The port definition is at: /home/hwzhang/Project/FPGA/CNN/HandWritten-Rcognition/src/neuralnetworks/operation-test/weights_operation.v(29).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_weights_operation/weights_operation_inst File: /home/hwzhang/Project/FPGA/CNN/HandWritten-Rcognition/src/neuralnetworks/operation-test/weights_operation.v
+# ** Warning: (vsim-3015) /home/hwzhang/Project/FPGA/CNN/HandWritten-Rcognition/src/neuralnetworks/operation-test/tb_weights_operation.v(64): [PCDPC] - Port size (32) does not match connection size (1) for port 'operation_out_7'. The port definition is at: /home/hwzhang/Project/FPGA/CNN/HandWritten-Rcognition/src/neuralnetworks/operation-test/weights_operation.v(30).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_weights_operation/weights_operation_inst File: /home/hwzhang/Project/FPGA/CNN/HandWritten-Rcognition/src/neuralnetworks/operation-test/weights_operation.v
+# ** Warning: (vsim-3015) /home/hwzhang/Project/FPGA/CNN/HandWritten-Rcognition/src/neuralnetworks/operation-test/tb_weights_operation.v(64): [PCDPC] - Port size (32) does not match connection size (1) for port 'operation_out_8'. The port definition is at: /home/hwzhang/Project/FPGA/CNN/HandWritten-Rcognition/src/neuralnetworks/operation-test/weights_operation.v(31).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_weights_operation/weights_operation_inst File: /home/hwzhang/Project/FPGA/CNN/HandWritten-Rcognition/src/neuralnetworks/operation-test/weights_operation.v
+# ** Warning: (vsim-3015) /home/hwzhang/Project/FPGA/CNN/HandWritten-Rcognition/src/neuralnetworks/operation-test/tb_weights_operation.v(64): [PCDPC] - Port size (32) does not match connection size (1) for port 'operation_out_9'. The port definition is at: /home/hwzhang/Project/FPGA/CNN/HandWritten-Rcognition/src/neuralnetworks/operation-test/weights_operation.v(32).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_weights_operation/weights_operation_inst File: /home/hwzhang/Project/FPGA/CNN/HandWritten-Rcognition/src/neuralnetworks/operation-test/weights_operation.v
+add wave -position insertpoint sim:/tb_weights_operation/*
+add wave -position insertpoint sim:/weights_operation/*
+run 100ns
+# pixel_in  is   1 
+# pixel_index  is   35 
+vsim work.mult_accum work.rom_weights_784_10 work.tb_weights_operation work.weights_operation altera_mf_ver.altmult_accum altera_mf_ver.altsyncram
+# End time: 09:45:50 on Apr 18,2019, Elapsed time: 0:01:23
+# Errors: 0, Warnings: 10
+# vsim work.mult_accum work.rom_weights_784_10 work.tb_weights_operation work.weights_operation altera_mf_ver.altmult_accum altera_mf_ver.altsyncram 
+# Start time: 09:45:50 on Apr 18,2019
+# Loading work.mult_accum
+# Loading altera_mf_ver.altmult_accum
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading work.rom_weights_784_10
+# Loading altera_mf_ver.altsyncram
+# Loading work.tb_weights_operation
+# Loading work.weights_operation
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# ** Warning: (vsim-3015) /home/hwzhang/Project/FPGA/CNN/HandWritten-Rcognition/src/neuralnetworks/operation-test/tb_weights_operation.v(64): [PCDPC] - Port size (32) does not match connection size (1) for port 'operation_out_0'. The port definition is at: /home/hwzhang/Project/FPGA/CNN/HandWritten-Rcognition/src/neuralnetworks/operation-test/weights_operation.v(23).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_weights_operation/weights_operation_inst File: /home/hwzhang/Project/FPGA/CNN/HandWritten-Rcognition/src/neuralnetworks/operation-test/weights_operation.v
+# ** Warning: (vsim-3015) /home/hwzhang/Project/FPGA/CNN/HandWritten-Rcognition/src/neuralnetworks/operation-test/tb_weights_operation.v(64): [PCDPC] - Port size (32) does not match connection size (1) for port 'operation_out_1'. The port definition is at: /home/hwzhang/Project/FPGA/CNN/HandWritten-Rcognition/src/neuralnetworks/operation-test/weights_operation.v(24).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_weights_operation/weights_operation_inst File: /home/hwzhang/Project/FPGA/CNN/HandWritten-Rcognition/src/neuralnetworks/operation-test/weights_operation.v
+# ** Warning: (vsim-3015) /home/hwzhang/Project/FPGA/CNN/HandWritten-Rcognition/src/neuralnetworks/operation-test/tb_weights_operation.v(64): [PCDPC] - Port size (32) does not match connection size (1) for port 'operation_out_2'. The port definition is at: /home/hwzhang/Project/FPGA/CNN/HandWritten-Rcognition/src/neuralnetworks/operation-test/weights_operation.v(25).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_weights_operation/weights_operation_inst File: /home/hwzhang/Project/FPGA/CNN/HandWritten-Rcognition/src/neuralnetworks/operation-test/weights_operation.v
+# ** Warning: (vsim-3015) /home/hwzhang/Project/FPGA/CNN/HandWritten-Rcognition/src/neuralnetworks/operation-test/tb_weights_operation.v(64): [PCDPC] - Port size (32) does not match connection size (1) for port 'operation_out_3'. The port definition is at: /home/hwzhang/Project/FPGA/CNN/HandWritten-Rcognition/src/neuralnetworks/operation-test/weights_operation.v(26).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_weights_operation/weights_operation_inst File: /home/hwzhang/Project/FPGA/CNN/HandWritten-Rcognition/src/neuralnetworks/operation-test/weights_operation.v
+# ** Warning: (vsim-3015) /home/hwzhang/Project/FPGA/CNN/HandWritten-Rcognition/src/neuralnetworks/operation-test/tb_weights_operation.v(64): [PCDPC] - Port size (32) does not match connection size (1) for port 'operation_out_4'. The port definition is at: /home/hwzhang/Project/FPGA/CNN/HandWritten-Rcognition/src/neuralnetworks/operation-test/weights_operation.v(27).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_weights_operation/weights_operation_inst File: /home/hwzhang/Project/FPGA/CNN/HandWritten-Rcognition/src/neuralnetworks/operation-test/weights_operation.v
+# ** Warning: (vsim-3015) /home/hwzhang/Project/FPGA/CNN/HandWritten-Rcognition/src/neuralnetworks/operation-test/tb_weights_operation.v(64): [PCDPC] - Port size (32) does not match connection size (1) for port 'operation_out_5'. The port definition is at: /home/hwzhang/Project/FPGA/CNN/HandWritten-Rcognition/src/neuralnetworks/operation-test/weights_operation.v(28).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_weights_operation/weights_operation_inst File: /home/hwzhang/Project/FPGA/CNN/HandWritten-Rcognition/src/neuralnetworks/operation-test/weights_operation.v
+# ** Warning: (vsim-3015) /home/hwzhang/Project/FPGA/CNN/HandWritten-Rcognition/src/neuralnetworks/operation-test/tb_weights_operation.v(64): [PCDPC] - Port size (32) does not match connection size (1) for port 'operation_out_6'. The port definition is at: /home/hwzhang/Project/FPGA/CNN/HandWritten-Rcognition/src/neuralnetworks/operation-test/weights_operation.v(29).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_weights_operation/weights_operation_inst File: /home/hwzhang/Project/FPGA/CNN/HandWritten-Rcognition/src/neuralnetworks/operation-test/weights_operation.v
+# ** Warning: (vsim-3015) /home/hwzhang/Project/FPGA/CNN/HandWritten-Rcognition/src/neuralnetworks/operation-test/tb_weights_operation.v(64): [PCDPC] - Port size (32) does not match connection size (1) for port 'operation_out_7'. The port definition is at: /home/hwzhang/Project/FPGA/CNN/HandWritten-Rcognition/src/neuralnetworks/operation-test/weights_operation.v(30).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_weights_operation/weights_operation_inst File: /home/hwzhang/Project/FPGA/CNN/HandWritten-Rcognition/src/neuralnetworks/operation-test/weights_operation.v
+# ** Warning: (vsim-3015) /home/hwzhang/Project/FPGA/CNN/HandWritten-Rcognition/src/neuralnetworks/operation-test/tb_weights_operation.v(64): [PCDPC] - Port size (32) does not match connection size (1) for port 'operation_out_8'. The port definition is at: /home/hwzhang/Project/FPGA/CNN/HandWritten-Rcognition/src/neuralnetworks/operation-test/weights_operation.v(31).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_weights_operation/weights_operation_inst File: /home/hwzhang/Project/FPGA/CNN/HandWritten-Rcognition/src/neuralnetworks/operation-test/weights_operation.v
+# ** Warning: (vsim-3015) /home/hwzhang/Project/FPGA/CNN/HandWritten-Rcognition/src/neuralnetworks/operation-test/tb_weights_operation.v(64): [PCDPC] - Port size (32) does not match connection size (1) for port 'operation_out_9'. The port definition is at: /home/hwzhang/Project/FPGA/CNN/HandWritten-Rcognition/src/neuralnetworks/operation-test/weights_operation.v(32).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_weights_operation/weights_operation_inst File: /home/hwzhang/Project/FPGA/CNN/HandWritten-Rcognition/src/neuralnetworks/operation-test/weights_operation.v
+# Compile of tb_weights_operation.v was successful.
+# Compile of weights_operation.v was successful.
+# Compile of rom_weights_784_10.v was successful.
+# Compile of mult_accum.v was successful.
+# 4 compiles, 0 failed with no errors.
+vsim work.mult_accum work.rom_weights_784_10 work.tb_weights_operation work.weights_operation altera_mf_ver.altmult_accum altera_mf_ver.altsyncram
+# End time: 09:47:03 on Apr 18,2019, Elapsed time: 0:01:13
+# Errors: 0, Warnings: 10
+# vsim work.mult_accum work.rom_weights_784_10 work.tb_weights_operation work.weights_operation altera_mf_ver.altmult_accum altera_mf_ver.altsyncram 
+# Start time: 09:47:03 on Apr 18,2019
+# Loading work.mult_accum
+# Loading altera_mf_ver.altmult_accum
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading work.rom_weights_784_10
+# Loading altera_mf_ver.altsyncram
+# Loading work.tb_weights_operation
+# Loading work.weights_operation
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+add wave -position insertpoint sim:/tb_weights_operation/*
+add wave -position insertpoint sim:/weights_operation/*
+run 100ns
+# pixel_in  is   1 
+# pixel_index  is   35 
+vsim work.mult_accum work.rom_weights_784_10 work.tb_weights_operation work.weights_operation altera_mf_ver.altmult_accum altera_mf_ver.altsyncram
+# End time: 09:52:41 on Apr 18,2019, Elapsed time: 0:05:38
+# Errors: 0, Warnings: 0
+# vsim work.mult_accum work.rom_weights_784_10 work.tb_weights_operation work.weights_operation altera_mf_ver.altmult_accum altera_mf_ver.altsyncram 
+# Start time: 09:52:41 on Apr 18,2019
+# Loading work.mult_accum
+# Loading altera_mf_ver.altmult_accum
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading work.rom_weights_784_10
+# Loading altera_mf_ver.altsyncram
+# Loading work.tb_weights_operation
+# Loading work.weights_operation
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+add wave -r /*
+run 100ns
+# pixel_in  is   1 
+# pixel_index  is   35 
+# Compile of tb_weights_operation.v was successful.
+# Compile of weights_operation.v was successful.
+# Compile of rom_weights_784_10.v was successful.
+# Compile of mult_accum.v was successful.
+# 4 compiles, 0 failed with no errors.
+vsim work.mult_accum work.rom_weights_784_10 work.tb_weights_operation work.weights_operation altera_mf_ver.altmult_accum altera_mf_ver.altsyncram
+# End time: 09:55:03 on Apr 18,2019, Elapsed time: 0:02:22
+# Errors: 0, Warnings: 0
+# vsim work.mult_accum work.rom_weights_784_10 work.tb_weights_operation work.weights_operation altera_mf_ver.altmult_accum altera_mf_ver.altsyncram 
+# Start time: 09:55:03 on Apr 18,2019
+# Loading work.mult_accum
+# Loading altera_mf_ver.altmult_accum
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading work.rom_weights_784_10
+# Loading altera_mf_ver.altsyncram
+# Loading work.tb_weights_operation
+# Loading work.weights_operation
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+add wave -r /*
+run 100ns
+# pixel_in  is   1 
+# pixel_index  is   35 
+# Can't move the Now cursor.
+# Compile of tb_weights_operation.v was successful.
+# Compile of rom_weights_784_10.v was successful.
+# Compile of mult_accum.v was successful.
+# Compile of weights_operation.v was successful.
+# 4 compiles, 0 failed with no errors.
+vsim work.mult_accum work.rom_weights_784_10 work.tb_weights_operation work.weights_operation altera_mf_ver.altmult_accum altera_mf_ver.altsyncram
+# End time: 10:06:40 on Apr 18,2019, Elapsed time: 0:11:37
+# Errors: 1, Warnings: 0
+# vsim work.mult_accum work.rom_weights_784_10 work.tb_weights_operation work.weights_operation altera_mf_ver.altmult_accum altera_mf_ver.altsyncram 
+# Start time: 10:06:40 on Apr 18,2019
+# Loading work.mult_accum
+# Loading altera_mf_ver.altmult_accum
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading work.rom_weights_784_10
+# Loading altera_mf_ver.altsyncram
+# Loading work.tb_weights_operation
+# Loading work.weights_operation
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+add wave -position insertpoint sim:/tb_weights_operation/*
+add wave -position insertpoint sim:/weights_operation/*
+run 100ns
+# pixel_in  is   1 
+# pixel_index  is   35 
+# weights_in9 is 00xx 
+# weights_in8 is 00xx 
+# weights_in7 is 00xx 
+# weights_in6 is 00xx 
+# weights_in5 is 00xx 
+# weights_in4 is 00xx 
+# weights_in3 is 00xx 
+# weights_in2 is 00xx 
+# weights_in1 is 00xx 
+# weights_in0 is 00xx 
+# weights_in9 is 00xx 
+# weights_in8 is 00xx 
+# weights_in7 is 00xx 
+# weights_in6 is 00xx 
+# weights_in5 is 00xx 
+# weights_in4 is 00xx 
+# weights_in3 is 00xx 
+# weights_in2 is 00xx 
+# weights_in1 is 00xx 
+# weights_in0 is 00xx 
+# Compile of tb_weights_operation.v was successful.
+# Compile of rom_weights_784_10.v was successful.
+# Compile of mult_accum.v was successful.
+# Compile of weights_operation.v was successful.
+# 4 compiles, 0 failed with no errors.
+vsim work.mult_accum work.rom_weights_784_10 work.tb_weights_operation work.weights_operation altera_mf_ver.altmult_accum altera_mf_ver.altsyncram
+# End time: 10:07:40 on Apr 18,2019, Elapsed time: 0:01:00
+# Errors: 0, Warnings: 0
+# vsim work.mult_accum work.rom_weights_784_10 work.tb_weights_operation work.weights_operation altera_mf_ver.altmult_accum altera_mf_ver.altsyncram 
+# Start time: 10:07:40 on Apr 18,2019
+# Loading work.mult_accum
+# Loading altera_mf_ver.altmult_accum
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading work.rom_weights_784_10
+# Loading altera_mf_ver.altsyncram
+# Loading work.tb_weights_operation
+# Loading work.weights_operation
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+add wave -position insertpoint sim:/tb_weights_operation/*
+add wave -position insertpoint sim:/weights_operation/*
+run 100ns
+# pixel_in  is   1 
+# pixel_index  is   35 
+# weights_in9 is 00xx 
+# weights_in8 is 00xx 
+# weights_in7 is 00xx 
+# weights_in6 is 00xx 
+# weights_in5 is 00xx 
+# weights_in4 is 00xx 
+# weights_in3 is 00xx 
+# weights_in2 is 00xx 
+# weights_in1 is 00xx 
+# weights_in0 is 00xx 
+# weights_in0 is xxxxxxxxxxxxxxxxxxxx 
+# weights_in9 is 00xx 
+# weights_in8 is 00xx 
+# weights_in7 is 00xx 
+# weights_in6 is 00xx 
+# weights_in5 is 00xx 
+# weights_in4 is 00xx 
+# weights_in3 is 00xx 
+# weights_in2 is 00xx 
+# weights_in1 is 00xx 
+# weights_in0 is 00xx 
+# weights_in0 is xxxxxxxxxxxxxxxxxxxx 
+run 100ns
+run 100ns
+run 100ns
+run 100ns
+run 100ns
+run 100ns
+run 100ns
+run 100ns
+# Compile of tb_weights_operation.v was successful.
+# Compile of rom_weights_784_10.v was successful.
+# Compile of mult_accum.v was successful.
+# Compile of weights_operation.v failed with 2 errors.
+# 4 compiles, 1 failed with 2 errors.
+# Compile of tb_weights_operation.v was successful.
+# Compile of rom_weights_784_10.v was successful.
+# Compile of mult_accum.v was successful.
+# Compile of weights_operation.v was successful.
+# 4 compiles, 0 failed with no errors.
+vsim work.mult_accum work.rom_weights_784_10 work.tb_weights_operation work.weights_operation altera_mf_ver.altmult_accum altera_mf_ver.altsyncram
+# End time: 10:15:51 on Apr 18,2019, Elapsed time: 0:08:11
+# Errors: 0, Warnings: 0
+# vsim work.mult_accum work.rom_weights_784_10 work.tb_weights_operation work.weights_operation altera_mf_ver.altmult_accum altera_mf_ver.altsyncram 
+# Start time: 10:15:51 on Apr 18,2019
+# Loading work.mult_accum
+# Loading altera_mf_ver.altmult_accum
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading work.rom_weights_784_10
+# Loading altera_mf_ver.altsyncram
+# Loading work.tb_weights_operation
+# Loading work.weights_operation
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+add wave -position insertpoint sim:/tb_weights_operation/*
+add wave -position insertpoint sim:/weights_operation/*
+run 100ns
+# pixel_in  is   1 
+# pixel_index  is   35 
+# pixel_in  is   x 
+# pixel_index  is    x 
+# weights_in9 is 00xx 
+# weights_in8 is 00xx 
+# weights_in7 is 00xx 
+# weights_in6 is 00xx 
+# weights_in5 is 00xx 
+# weights_in4 is 00xx 
+# weights_in3 is 00xx 
+# weights_in2 is 00xx 
+# weights_in1 is 00xx 
+# weights_in0 is 00xx 
+# weights_in0 is xxxxxxxxxxxxxxxxxxxx 
+# pixel_in  is   z 
+# pixel_index  is    z 
+# weights_in9 is 00xx 
+# weights_in8 is 00xx 
+# weights_in7 is 00xx 
+# weights_in6 is 00xx 
+# weights_in5 is 00xx 
+# weights_in4 is 00xx 
+# weights_in3 is 00xx 
+# weights_in2 is 00xx 
+# weights_in1 is 00xx 
+# weights_in0 is 00xx 
+# weights_in0 is xxxxxxxxxxxxxxxxxxxx 
+# Compile of tb_weights_operation.v was successful.
+# Compile of rom_weights_784_10.v was successful.
+# Compile of mult_accum.v was successful.
+# Compile of weights_operation.v was successful.
+# 4 compiles, 0 failed with no errors.
+vsim work.mult_accum work.rom_weights_784_10 work.tb_weights_operation work.weights_operation altera_mf_ver.altmult_accum altera_mf_ver.altsyncram
+# End time: 10:18:21 on Apr 18,2019, Elapsed time: 0:02:30
+# Errors: 0, Warnings: 0
+# vsim work.mult_accum work.rom_weights_784_10 work.tb_weights_operation work.weights_operation altera_mf_ver.altmult_accum altera_mf_ver.altsyncram 
+# Start time: 10:18:21 on Apr 18,2019
+# Loading work.mult_accum
+# Loading altera_mf_ver.altmult_accum
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading work.rom_weights_784_10
+# Loading altera_mf_ver.altsyncram
+# Loading work.tb_weights_operation
+# Loading work.weights_operation
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+run 100ns
+# pixel_in  is   1 
+# pixel_index  is   35 
+# pixel_in  is   x 
+# pixel_index  is    x 
+# weights_in9 is 00xx 
+# weights_in8 is 00xx 
+# weights_in7 is 00xx 
+# weights_in6 is 00xx 
+# weights_in5 is 00xx 
+# weights_in4 is 00xx 
+# weights_in3 is 00xx 
+# weights_in2 is 00xx 
+# weights_in1 is 00xx 
+# weights_in0 is 00xx 
+# weights_row is xxxxxxxxxxxxxxxxxxxx 
+# pixel_in  is   x 
+# pixel_index  is    x 
+# weights_in9 is 00xx 
+# weights_in8 is 00xx 
+# weights_in7 is 00xx 
+# weights_in6 is 00xx 
+# weights_in5 is 00xx 
+# weights_in4 is 00xx 
+# weights_in3 is 00xx 
+# weights_in2 is 00xx 
+# weights_in1 is 00xx 
+# weights_in0 is 00xx 
+# weights_row is xxxxxxxxxxxxxxxxxxxx 
+add wave -position insertpoint sim:/tb_weights_operation/*
+add wave -position insertpoint sim:/weights_operation/*
+run 100ns
+# Compile of tb_weights_operation.v was successful.
+# Compile of rom_weights_784_10.v was successful.
+# Compile of mult_accum.v was successful.
+# Compile of weights_operation.v was successful.
+# 4 compiles, 0 failed with no errors.
+vsim work.mult_accum work.rom_weights_784_10 work.tb_weights_operation work.weights_operation altera_mf_ver.altmult_accum altera_mf_ver.altsyncram
+# End time: 10:47:22 on Apr 18,2019, Elapsed time: 0:29:01
+# Errors: 0, Warnings: 0
+# vsim work.mult_accum work.rom_weights_784_10 work.tb_weights_operation work.weights_operation altera_mf_ver.altmult_accum altera_mf_ver.altsyncram 
+# Start time: 10:47:22 on Apr 18,2019
+# Loading work.mult_accum
+# Loading altera_mf_ver.altmult_accum
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading work.rom_weights_784_10
+# Loading altera_mf_ver.altsyncram
+# Loading work.tb_weights_operation
+# Loading work.weights_operation
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# ** Error: (vsim-3389) /home/hwzhang/Project/FPGA/CNN/HandWritten-Rcognition/src/neuralnetworks/operation-test/tb_weights_operation.v(64): Port 'pixel_in' not found in the connected module (3rd connection).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_weights_operation/weights_operation_inst File: /home/hwzhang/Project/FPGA/CNN/HandWritten-Rcognition/src/neuralnetworks/operation-test/weights_operation.v
+# ** Error: (vsim-3389) /home/hwzhang/Project/FPGA/CNN/HandWritten-Rcognition/src/neuralnetworks/operation-test/tb_weights_operation.v(64): Port 'pixel_index' not found in the connected module (4th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_weights_operation/weights_operation_inst File: /home/hwzhang/Project/FPGA/CNN/HandWritten-Rcognition/src/neuralnetworks/operation-test/weights_operation.v
+# ** Fatal: (vsim-3365) /home/hwzhang/Project/FPGA/CNN/HandWritten-Rcognition/src/neuralnetworks/operation-test/tb_weights_operation.v(64): Too many port connections. Expected 12, found 14.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_weights_operation/weights_operation_inst File: /home/hwzhang/Project/FPGA/CNN/HandWritten-Rcognition/src/neuralnetworks/operation-test/weights_operation.v
+# FATAL ERROR while loading design
+# Error loading design
+# End time: 10:47:22 on Apr 18,2019, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+# Compile of tb_weights_operation.v was successful.
+# Compile of rom_weights_784_10.v was successful.
+# Compile of mult_accum.v was successful.
+# Compile of weights_operation.v was successful.
+# 4 compiles, 0 failed with no errors.
+vsim work.mult_accum work.rom_weights_784_10 work.tb_weights_operation work.weights_operation altera_mf_ver.altmult_accum altera_mf_ver.altsyncram
+# vsim work.mult_accum work.rom_weights_784_10 work.tb_weights_operation work.weights_operation altera_mf_ver.altmult_accum altera_mf_ver.altsyncram 
+# Start time: 10:48:16 on Apr 18,2019
+# Loading work.mult_accum
+# Loading altera_mf_ver.altmult_accum
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading work.rom_weights_784_10
+# Loading altera_mf_ver.altsyncram
+# Loading work.tb_weights_operation
+# Loading work.weights_operation
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+add wave -position insertpoint sim:/tb_weights_operation/*
+add wave -position insertpoint sim:/weights_operation/*
+run 100ns
+# pixel_in  is   1 
+# pixel_index  is   35 
+# pixel_in  is   1 
+# pixel_index  is   35 
+# weights_in9 is 00xx 
+# weights_in8 is 00xx 
+# weights_in7 is 00xx 
+# weights_in6 is 00xx 
+# weights_in5 is 00xx 
+# weights_in4 is 00xx 
+# weights_in3 is 00xx 
+# weights_in2 is 00xx 
+# weights_in1 is 00xx 
+# weights_in0 is 00xx 
+# weights_row is xxxxxxxxxxxxxxxxxxxx 
+# pixel_in  is   1 
+# pixel_index  is   35 
+# weights_in9 is 00xx 
+# weights_in8 is 00xx 
+# weights_in7 is 00xx 
+# weights_in6 is 00xx 
+# weights_in5 is 00xx 
+# weights_in4 is 00xx 
+# weights_in3 is 00xx 
+# weights_in2 is 00xx 
+# weights_in1 is 00xx 
+# weights_in0 is 00xx 
+# weights_row is xxxxxxxxxxxxxxxxxxxx 
+# Compile of tb_weights_operation.v was successful.
+# Compile of rom_weights_784_10.v was successful.
+# Compile of mult_accum.v was successful.
+# Compile of weights_operation.v was successful.
+# 4 compiles, 0 failed with no errors.
+vsim work.mult_accum work.rom_weights_784_10 work.tb_weights_operation work.weights_operation altera_mf_ver.altmult_accum altera_mf_ver.altsyncram
+# End time: 11:09:13 on Apr 18,2019, Elapsed time: 0:20:57
+# Errors: 0, Warnings: 0
+# vsim work.mult_accum work.rom_weights_784_10 work.tb_weights_operation work.weights_operation altera_mf_ver.altmult_accum altera_mf_ver.altsyncram 
+# Start time: 11:09:13 on Apr 18,2019
+# Loading work.mult_accum
+# Loading altera_mf_ver.altmult_accum
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading work.rom_weights_784_10
+# Loading altera_mf_ver.altsyncram
+# Loading work.tb_weights_operation
+# Loading work.weights_operation
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+add wave -position insertpoint sim:/tb_weights_operation/*
+add wave -position insertpoint sim:/weights_operation/*
+run 100ns
+# pixel_in  is   1 
+# pixel_index  is   35 
+# pixel_in  is   1 
+# pixel_index  is   35 
+# weights_in9 is 00xx 
+# weights_in8 is 00xx 
+# weights_in7 is 00xx 
+# weights_in6 is 00xx 
+# weights_in5 is 00xx 
+# weights_in4 is 00xx 
+# weights_in3 is 00xx 
+# weights_in2 is 00xx 
+# weights_in1 is 00xx 
+# weights_in0 is 00xx 
+# weights_row is xxxxxxxxxxxxxxxxxxxx 
+# pixel_in  is   1 
+# pixel_index  is   35 
+# weights_in9 is 00xx 
+# weights_in8 is 00xx 
+# weights_in7 is 00xx 
+# weights_in6 is 00xx 
+# weights_in5 is 00xx 
+# weights_in4 is 00xx 
+# weights_in3 is 00xx 
+# weights_in2 is 00xx 
+# weights_in1 is 00xx 
+# weights_in0 is 00xx 
+# weights_row is xxxxxxxxxxxxxxxxxxxx 
+add wave -r /*
+add wave -r /*
+run 100ns
+add wave -r /*
+run 100ns
+add wave -r /*
+vsim work.mult_accum work.rom_weights_784_10 work.tb_weights_operation work.weights_operation altera_mf_ver.altmult_accum altera_mf_ver.altsyncram
+# End time: 11:12:54 on Apr 18,2019, Elapsed time: 0:03:41
+# Errors: 0, Warnings: 0
+# vsim work.mult_accum work.rom_weights_784_10 work.tb_weights_operation work.weights_operation altera_mf_ver.altmult_accum altera_mf_ver.altsyncram 
+# Start time: 11:12:54 on Apr 18,2019
+# Loading work.mult_accum
+# Loading altera_mf_ver.altmult_accum
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading work.rom_weights_784_10
+# Loading altera_mf_ver.altsyncram
+# Loading work.tb_weights_operation
+# Loading work.weights_operation
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+add wave sim:/tb_weights_operation/*
+add wave sim:/weights_operation/*
+run 100ns
+# pixel_in  is   1 
+# pixel_index  is   35 
+# pixel_in  is   1 
+# pixel_index  is   35 
+# weights_in9 is 00xx 
+# weights_in8 is 00xx 
+# weights_in7 is 00xx 
+# weights_in6 is 00xx 
+# weights_in5 is 00xx 
+# weights_in4 is 00xx 
+# weights_in3 is 00xx 
+# weights_in2 is 00xx 
+# weights_in1 is 00xx 
+# weights_in0 is 00xx 
+# weights_row is xxxxxxxxxxxxxxxxxxxx 
+# pixel_in  is   1 
+# pixel_index  is   35 
+# weights_in9 is 00xx 
+# weights_in8 is 00xx 
+# weights_in7 is 00xx 
+# weights_in6 is 00xx 
+# weights_in5 is 00xx 
+# weights_in4 is 00xx 
+# weights_in3 is 00xx 
+# weights_in2 is 00xx 
+# weights_in1 is 00xx 
+# weights_in0 is 00xx 
+# weights_row is xxxxxxxxxxxxxxxxxxxx 
+vsim work.mult_accum work.rom_weights_784_10 work.tb_weights_operation work.weights_operation 220model_ver.lpm_rom altera_mf_ver.altmult_accum altera_mf_ver.altsyncram
+# End time: 11:32:07 on Apr 18,2019, Elapsed time: 0:19:13
+# Errors: 0, Warnings: 0
+# vsim work.mult_accum work.rom_weights_784_10 work.tb_weights_operation work.weights_operation 220model_ver.lpm_rom altera_mf_ver.altmult_accum altera_mf_ver.altsyncram 
+# Start time: 11:32:07 on Apr 18,2019
+# Loading work.mult_accum
+# Loading altera_mf_ver.altmult_accum
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading work.rom_weights_784_10
+# Loading altera_mf_ver.altsyncram
+# Loading work.tb_weights_operation
+# Loading work.weights_operation
+# Loading 220model_ver.lpm_rom
+# Loading 220model_ver.LPM_DEVICE_FAMILIES
+# Loading 220model_ver.LPM_MEMORY_INITIALIZATION
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+add wave -position insertpoint sim:/tb_weights_operation/*
+add wave -position insertpoint sim:/weights_operation/*
+run 100ns
+# pixel_in  is   1 
+# pixel_index  is   35 
+# pixel_in  is   1 
+# pixel_index  is   35 
+# weights_in9 is 00xx 
+# weights_in8 is 00xx 
+# weights_in7 is 00xx 
+# weights_in6 is 00xx 
+# weights_in5 is 00xx 
+# weights_in4 is 00xx 
+# weights_in3 is 00xx 
+# weights_in2 is 00xx 
+# weights_in1 is 00xx 
+# weights_in0 is 00xx 
+# weights_row is xxxxxxxxxxxxxxxxxxxx 
+# pixel_in  is   1 
+# pixel_index  is   35 
+# weights_in9 is 00xx 
+# weights_in8 is 00xx 
+# weights_in7 is 00xx 
+# weights_in6 is 00xx 
+# weights_in5 is 00xx 
+# weights_in4 is 00xx 
+# weights_in3 is 00xx 
+# weights_in2 is 00xx 
+# weights_in1 is 00xx 
+# weights_in0 is 00xx 
+# weights_row is xxxxxxxxxxxxxxxxxxxx 
+# Warning:  LPM_ROM must have data file for initialization.
+# 
+# Time: 0  Instance: lpm_rom
+# WARNING: No extended dataflow license exists
+# Compile of tb_weights_operation.v was successful.
+# Compile of rom_weights_784_10.v was successful.
+# Compile of mult_accum.v was successful.
+# Compile of weights_operation.v was successful.
+# 4 compiles, 0 failed with no errors.
+vsim work.rom_weights_784_10 work.tb_weights_operation 220model_ver.lpm_rom altera_mf_ver.altmult_accum altera_mf_ver.altsyncram
+# End time: 15:20:56 on Apr 18,2019, Elapsed time: 3:48:49
+# Errors: 0, Warnings: 1
+# vsim work.rom_weights_784_10 work.tb_weights_operation 220model_ver.lpm_rom altera_mf_ver.altmult_accum altera_mf_ver.altsyncram 
+# Start time: 15:20:56 on Apr 18,2019
+# Loading work.rom_weights_784_10
+# Loading altera_mf_ver.altsyncram
+# Loading work.tb_weights_operation
+# Loading 220model_ver.lpm_rom
+# Loading 220model_ver.LPM_DEVICE_FAMILIES
+# Loading 220model_ver.LPM_MEMORY_INITIALIZATION
+# Loading altera_mf_ver.altmult_accum
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+add wave -position insertpoint sim:/rom_weights_784_10/*
+add wave -position insertpoint sim:/tb_weights_operation/*
+run 100ns
+# pixel_in  is   1 
+# pixel_index  is   35 
+# Warning:  LPM_ROM must have data file for initialization.
+# 
+# Time: 0  Instance: lpm_rom
+vsim work.rom_weights_784_10 work.tb_weights_operation altera_mf_ver.altsyncram
+# End time: 15:28:07 on Apr 18,2019, Elapsed time: 0:07:11
+# Errors: 0, Warnings: 0
+# vsim work.rom_weights_784_10 work.tb_weights_operation altera_mf_ver.altsyncram 
+# Start time: 15:28:07 on Apr 18,2019
+# Loading work.rom_weights_784_10
+# Loading altera_mf_ver.altsyncram
+# Loading work.tb_weights_operation
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+add wave -position insertpoint sim:/rom_weights_784_10/*
+add wave -position insertpoint sim:/tb_weights_operation/*
+run 100ns
+# pixel_in  is   1 
+# pixel_index  is   35 

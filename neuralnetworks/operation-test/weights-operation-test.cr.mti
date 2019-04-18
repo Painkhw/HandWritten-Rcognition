@@ -1,0 +1,22 @@
+/home/hwzhang/Project/FPGA/CNN/HandWritten-Rcognition/src/neuralnetworks/operation-test/weights_operation.v {1 {vlog -work work -stats=none /home/hwzhang/Project/FPGA/CNN/HandWritten-Rcognition/src/neuralnetworks/operation-test/weights_operation.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module weights_operation
+
+Top level modules:
+	weights_operation
+
+} {} {}} /home/hwzhang/Project/FPGA/CNN/HandWritten-Rcognition/src/neuralnetworks/operation-test/mult_accum.v {1 {vlog -work work -stats=none /home/hwzhang/Project/FPGA/CNN/HandWritten-Rcognition/src/neuralnetworks/operation-test/mult_accum.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module mult_accum
+
+Top level modules:
+	mult_accum
+
+} {} {}} /home/hwzhang/Project/FPGA/CNN/HandWritten-Rcognition/src/neuralnetworks/operation-test/rom_weights_784_10.v {1 {vlog -work work -stats=none /home/hwzhang/Project/FPGA/CNN/HandWritten-Rcognition/src/neuralnetworks/operation-test/rom_weights_784_10.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module rom_weights_784_10
+
+Top level modules:
+	rom_weights_784_10
+
+} {} {}}
